@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:background="@drawable/back_1"
+    android:layout_height="match_parent"
+    tools:context=".Login">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:background="#00DC4B4B"
+        android:text="@string/attendance_app"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display3"
+        android:textColor="#2A3A8A" />
+
+    <EditText
+        android:id="@+id/l_et_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="150dp"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:textSize="20sp"
+        android:hint="@string/email"
+        android:layout_marginBottom="15dp"
+        android:inputType="textEmailAddress"
+        android:importantForAutofill="no" />
+    <EditText
+        android:id="@+id/l_et_pass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:hint="@string/password"
+        android:inputType="textPassword"
+        android:layout_marginBottom="25dp"
+        android:importantForAutofill="no" />
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/checkbox_remember"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="10dp"
+        android:text="@string/remember_me"/>
+
+    <Button
+        android:id="@+id/l_bt_login"
+        style="@style/Widget.AppCompat.Button.ButtonBar.AlertDialog"
+        android:layout_width="154dp"
+        android:layout_height="45dp"
+        android:layout_gravity="center"
+        android:textSize="20sp"
+        android:layout_marginBottom="25dp"
+        android:text="@string/login" />
+    <TextView
+        android:id="@+id/l_return"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/not_registered_yet_register"
+        android:textSize="20sp"
+        android:textColor="#000000"
+        android:layout_gravity="center"/>
+
+    <ProgressBar
+        android:id="@+id/progressbar_login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:visibility="invisible"
+        tools:visibility="invisible" />
+
+
+
+</LinearLayout>
