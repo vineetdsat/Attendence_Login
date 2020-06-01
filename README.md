@@ -5,4 +5,5 @@ The Owner can acces the List of employes present that day in the app itself, wit
 # Preview
 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; ![](Images/Login.png)    &nbsp; &nbsp; &nbsp;  ![](Images/Reg.png)  &nbsp; &nbsp; &nbsp;![](Images/Main.png)
 # Discription
-[Attendence Register File](Attendance%20Register.xlsx)
+This Google Sheets File [Attendence Register File](Attendance%20Register.xlsx) contains the list of Employees present and is updated as the Employee presses the Mark Attendence Button. 
+It contains the Name and Employee Code of the Person, which are extracted from the Firebase storage. These values are parsed through the Volly Library into the Google Sheet.
